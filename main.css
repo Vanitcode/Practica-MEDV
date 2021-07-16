@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.axis {
+  padding: 25px;
+  float: left;
+  width: 50%; 
+}
+
+.map {
+  padding: 25px;
+  float: left;
+  width: 50%; 
+}
+
+@media screen and (max-width: 1600px) {
+  .map, .axis{
+    width: 100%; 
+  }
+}
+
+.rectwarning {
+  fill: rgb(255, 120, 120);
+}
+
+#mapid {
+  width: 800px;
+  height: 400px;
+}
+
+/* .tooltip {
+  position: absolute;
+  pointer-events: none;
+  visibility: hidden;
+  background-color: white;
+  border: solid;
+  border-width: 1px;
+} */
